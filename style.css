@@ -1,0 +1,96 @@
+body {
+    margin: 0px;    
+    font-size: 10pt;
+    color: #514c4c;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fffcf2;
+}
+
+h1 {
+    font-family: 'Allura', cursive;
+    font-size: 45pt;
+    color: #919ba1;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Allura', cursive;
+    font-size: 35pt;
+    color: #919ba1;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 11pt;
+}
+
+hr {
+    
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #514c4c;    
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.centralLayer {
+        margin: 0px auto;
+        z-index:1;
+}
+
+.column {
+    max-width: 900px;
+    width: 100%;
+}
+
+.panel {
+    padding-bottom: 40px;
+    background-repeat: no-repeat;    
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-image: url(pict/linie_kropek.svg);
+}
+
+.sliderContainer {
+/*    max-height:200px; */
+}
+
+.slidesjs-navigation {
+    display: none;
+}
+
+.sign {
+    font-family: 'Allura', cursive;
+    font-size: 23pt;
+    color: #919ba1;
+    text-align: right;
+}
+
+#menu {
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+/*     z-index:1000; */
+    background-color: #919BA1;
+}
+
+.foot {
+    margin-top: 20px;
+    font-size: 11pt;
+}
+
+.left {
+    float: left;
+}
