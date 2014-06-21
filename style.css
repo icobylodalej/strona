@@ -94,3 +94,7 @@ a:hover {
 .left {
     float: left;
 }
+
+.rightAlign {
+    text-align: right;
+}
