@@ -32,6 +32,10 @@ hr {
     text-align: center;
 }
 
+.clear {
+    clear: both;
+}
+
 a {
     text-decoration: none;
     color: #514c4c;    
@@ -97,4 +101,16 @@ a:hover {
 
 .rightAlign {
     text-align: right;
+}
+
+#footer {
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 8pt;
+}
+
+#logos {
+    float:left;
+    margin-right: 20px;
 }
