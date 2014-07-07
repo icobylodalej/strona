@@ -7,7 +7,7 @@ var SLIDER_WIDTH = 1920;
 function scrollToClick(e) {
 	var hash = this.hash;
 	$('html,body').scrollTo(this.hash, this.hash);
-	e.preventDefault();	
+	e.preventDefault();
 }
 
 
@@ -22,10 +22,10 @@ var firstPictPerPage = {
         2: 1,
         3: 1,
         4: 1
-};
+    };
 
 
-$( document ).ready(function() {
+$(document).ready(function () {
     // add slow scroll on link click
     $('#menu').delegate('a', 'click', scrollToClick);
 
