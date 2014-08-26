@@ -119,3 +119,8 @@ a:hover {
 #child {
     margin-top: 40px;
 }
+
+#smallStories {
+    background-image: url(pict/kropki.svg);
+    background-position: center 0;
+}
