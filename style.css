@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 35pt;
+    font-size: 30pt;
     color: #919ba1;
     margin-bottom: 10px;
 }
@@ -76,9 +76,10 @@ a:hover {
 
 .sign {
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 23pt;
+    font-size: 14pt;
     color: #919ba1;
     text-align: right;
+    margin-top: -15px;
 }
 
 #menu {
