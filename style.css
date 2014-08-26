@@ -7,14 +7,14 @@ body {
 }
 
 h1 {
-    font-family: 'Allura', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 45pt;
     color: #919ba1;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-family: 'Allura', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 35pt;
     color: #919ba1;
     margin-bottom: 10px;
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .sign {
-    font-family: 'Allura', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 23pt;
     color: #919ba1;
     text-align: right;
