@@ -11,6 +11,7 @@ h1 {
     font-size: 45pt;
     color: #919ba1;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 h2 {
@@ -22,10 +23,23 @@ h2 {
 
 h3 {
     font-size: 11pt;
+    margin-bottom: 5px;
 }
 
 hr {
     
+}
+
+.hidden {
+    display: none;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    font-weight: bold;
 }
 
 .center {
@@ -64,6 +78,7 @@ a:hover {
     width: 100%;
     height: 4px;
     background-image: url(pict/linie_kropek.svg);
+    margin-bottom: 10px;
 }
 
 .sliderContainer {
@@ -79,16 +94,30 @@ a:hover {
     font-size: 14pt;
     color: #919ba1;
     text-align: right;
-    margin-top: -15px;
 }
 
-#menu {
+nav {
     width:100%;
     height:40px;
     line-height: 40px;
     text-align:center;
-/*     z-index:1000; */
     background-color: #919BA1;
+}
+
+nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 16pt;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    border-top: 0;
 }
 
 .foot {
@@ -104,9 +133,8 @@ a:hover {
     text-align: right;
 }
 
-#footer {
-    max-width: 900px;
-    margin-top: 20px;
+footer {
+    margin-top: 180px;
     margin-bottom: 20px;
     font-size: 8pt;
 }
@@ -117,10 +145,20 @@ a:hover {
 }
 
 #child {
-    margin-top: 40px;
+    float: right
 }
 
 #smallStories {
     background-image: url(pict/kropki.svg);
-    background-position: center 0;
+    background-position: center 800px;
+}
+
+.slideShow {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#wardrobe {
+    padding-right: 20px;
+    padding-top: 20px;
 }

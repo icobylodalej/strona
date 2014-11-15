@@ -43,12 +43,16 @@
         </div>
     </div>
 
-    <div id="menu">
-    </div>
+     <nav>
+        <a id="aProject" href="#project" >projekt</a>
+        <a id="aSpectacle" href="#spectacle" >spektakl</a>
+        <a id="aCompetition" href="#competition" >konkurs</a>
+        <a id="aMafundacja" href="#mafundacja" >Mafundacja</a>
+    </nav>
 
     <div id="smallStories" class="panel">
         <div class="centralLayer column">
-            <h1>I co było dalej</h1>
+            <h1 id="project">I co było dalej</h1>
             <h3>
                 Pomysł na projekt zrodził się z miłości do dzieci, do teatru, do lalek, z sentymentu do historii z cyklu “Poczytaj mi, mamo”...  
                 <br>
@@ -65,18 +69,54 @@
                 <iframe width="900" height="506" src="http://www.youtube.com/embed/aIP523Wc2ck?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </h2>
 
-            <h2 class="center">Naszymi partnerami byli:</h2>
-            <h3 class="center">
-                VII Ogródek Jordanowski w Warszawie<br>
-                Centrum Kultury Prawosławnejw Warszawie<br>
-                Przedszkole Samorządowe nr 184 w Warszawie<br>
+            <h2>Partnerzy projektu</h2>
+                Dom Kultury „Świt” w Warszawie<br>
+                Dom Kultury Śródmieście w Warszawie<br>
+                Centrum Kultury Prawosławnej w Warszawie<br>
                 Przedszkole Integracyjne nr 312 w Warszawie<br>
                 Przedszkole Specjalne nr 249 w Warszawie<br>
-                Dom Kultury “Świt” w Warszawie<br>
-            </h3> 
-            <br>
-            <br>           
-            <h1>„Małe historie”</h1>
+                Przedszkole Samorządowe nr 184 w Warszawie<br>
+                Szkoła Podstawowa nr 267 w Warszawie<br>
+                Szkoła Podstawowa nr 258 w Warszawie<br>
+                VII Ogród Jordanowski w Warszawie<br>
+                Przestrzeń Kultury soojka.pl
+            <h2>Ekipa projektu</h2>
+                Natalia Leszczyńska<br>
+                Anna Szawiel<br>
+                Katarzyna Mazurek<br>
+                Anna Wojtecka<br>
+                Rafał Leszczyński<br>
+                Julia Umeda-Zasacka<br>
+                Krystyna Bocheńska<br>
+                Piotr Bocheński<br>
+                Magdalena Jeżak<br>
+                Sylwia Zielińska<br>
+                Anna Bąk
+            <h2>Kalendarium zdarzeń „I co było dalej”</h2>
+            <div onclick="slideToggle(this, 'mwHistory');" class="clickable">Poznaj historię projektu [+]</div>
+            <div id="mwHistory" class="hidden">
+                31 maja 2014– Spotkanie dla twórców,pedagogów,animatorów i rodzicówwsiedzibie fundacji Ponadto(Buddaplay, ul. Białostocka 9)<br>
+                3 czerwca2014 –Warsztaty w Przedszkolu Samorządowym nr184<br>
+                8 czerwca2014 –Warsztaty w CentrumKulturyPrawosławnej<br>
+                10 czerwca 2014 – Warsztaty w VII OgródkuJordanowskim<br>
+                12 czerwca 2014 – Warsztaty w Przedszkolu Specjalnym nr 249<br>
+                16 czerwca 2014 – Warsztaty w Przedszkolu Integracyjnym nr312<br>
+                22 czerwca 2014 – Pokaz przedpremierowy „Małych Historii” wCentrum Kultury Prawosławnej<br>
+                23 czerwca2014 –Pokazprzedpremierowy„MałychHistorii”w Przedszkolu Integracyjnym nr 312<br>
+                24 czerwca 2014 - Pokaz przedpremierowy „Małych Historii” w Przedszkolu Samorządowym nr 184<br>
+                26 czerwca 2014 - Pokazprzedpremierowy„MałychHistorii”w PrzedszkoluSpecjalnym nr 249<br>
+                26 czerwca 2014 - Pokaz przedpremierowy „Małych Historii” w Domu Kultury Świt<br>
+                27czerwca 2014 –Pokazprzedpremierowy„MałychHistorii” wVII Ogródku Jordanowskim<br>
+                Pracowitewakacje– ewaluacja, rozmyślania, konsultacje,zmiany<br>
+                28 września 2014 - PREMIERA w DomuKulturyŚródmieściew Warszawie, scena naul. Smolnej<br>
+                4 października 2014 – POKAZPLENEROWY „Małych Historii” w parku Picassa wWarszawie(BiałołęckiOśrodek Kultury)<br>
+                16 października 2014– trzy pokazy„MałychHistorii”w SzkolePodstawowej nr 267 w Warszawie, ul. Braci Załuskich 1<br>
+                21 października 2014 - trzy pokazy „MałychHistorii”w Filii Szkoły Podstawowej nr 258 w Warszawie , ul. Namysłowska 1<br>
+                8 listopada 2014 – spotkanie i konsultacje dla twórców, pedagogów i animatoróworazwarsztaty dla dzieci w Przestrzeni Kultury SoojkawŁomiankach<br>
+                15 listopada 2014– ogłoszenie wyników konkursu MOJAPIERWSZARECENZJA<br>
+                30 listopada 2014– Zakończenie... I co będziedalej?<br>
+            </div>
+            <h1 id="spectacle">„Małe historie”</h1>
             <h3>
                 Spektakl Małe Historie powstał w ramach projektu „I co było dalej?...” realizowanego przez Ma Fundację przy wsparciu Ministerstwa Kultury i Dziedzictwa Narodowego.
             </h3>
@@ -93,8 +133,8 @@
             <h3>Katarzyna Mazurek (lalki)</h3>
                 Aktorka teatralna i filmowa, absolwentka szkoły teatralnej Studium Aktorskie w Olsztynie. Studiowała pedagogikę ogólną oraz kulturoznawstwo na Uniwersytecie Warszawskim. Malarka, projektantka, rzeźbiarka. Współpracowała z Teatrem Dramatycznym im. A. Mickiewicza w Częstochowie, z Teatrem Dramatycznym im. S. Jaracza w Olsztynie. Odtwórczyni roli tytułowej w filmie Anniki Glac „Bunny”. Realizuje projekty plastyczne, projektuje i wykonuje lalki teatralne.
             <br>
-            <h2>Zapraszamy do współpracy</h2>
-                Spektakl (monodram) powstał z myślą o prezentacji również w warunkach nieteatralnych. Trwa około 45 min, akcja/zabawa “moja pierwsza recenzja” około 20 min. Jeśli chcieliby Państwo zaprosić “Małe Historie”, prosimy o kontakt:
+            <h2>Zaproś nas</h2>
+                Spektakl (monodram) powstał z myślą o prezentacji również w warunkach nieteatralnych. Trwa około 45 min, akcja/zabawa “moja pierwsza recenzja” około 20 min. Jeśli chcieliby Państwo zaprosić “Małe Historie”,                       prosimy o kontakt:
             <div id="contact" class="foot">
                 <a href="mailto:icobylodalej@gmail.com">icobylodalej@gmail.com</a><br>
                 tel. 732 634 268
@@ -107,45 +147,74 @@
     <div id="competition" class="panel ">
         <div class="centralLayer column">
             <div class="left">
-                <img src="pict/szafa.svg">
+                <img id="wardrobe" src="pict/szafa.png">
             </div>
             <div class="right">
-                <h1>Akcja "Moja pierwsza recenzja"</h1>
-                Po spektaklu proponujemy widzom udział w akcji/zabawie „moja pierwsza recenzja”. Rozdajemy kartki pocztowe i zachęcamy do wysłania pozdrowień i swego rodzaju recenzji bezpośrednio po spektaklu
-                <h2>Konkurs</h2>            
-                Zapraszamy do konkursu "Moja pierwsza recenzja". Czekamy na Wasze pisane lub obrazkowe recenzje.
-                <br>
-                Konkurs skierowany jest zarówno do adresatów naszych teatralnych pocztówek, jak i innych małych wielbicieli teatru. Szczegółowe zasady konkursu znajdą Pastwo w regulaminie:
+                <h1 id="competition">Rysunkowe recenzje</h1>
+                    Po spektaklach proponujemy widzom udział w akcji/zabawie „moja pierwsza recenzja”. Rozdajemy kartki
+                    pocztowe i zachęcamy do wysłania pozdrowień i swego rodzaju recenzji bezpośrednio po spektaklu.
+                    Zaprosiliśmy Was do konkursu “Moja pierwsza recenzja”.Czekaliśmy na Wasze pisane lubobrazkowe recenzje.
+                    Konkurs skierowany był zarówno do adresatów naszych teatralnych pocztówek, jak i innych małych
+                    wielbicieli teatru. Szczegółowe zasady konkursu znajdą Pastwo wregulaminie:
                 <div class="foot"><a href="regulamin_konkursu.pdf">pobierz regulamin (PDF)</a></div>
                 <div class="rightAlign">
                     <img src="pict/pocztowka.png">
                 </div>                
             </div>
+            <h2>Wyniki konkursu „Moja pierwsza recenzja”</h2>
+            Dziękujemy wszystkim uczestnikom za nadesłane zdjęcia prac i kartek pocztowych. Mamy nadzieję, że ich dalsze pocztowe życie przyniosło adresatom wiele radości.
+            Jury starało się wnikliwie i rzetelnie ocenić prace. Wybór był bardzo trudny, spośród nadesłanych prac Jury wybrało łącznie 5 prac zwycięskich.<br>
+            <h3>I nagrodę:</h3>
+            książkę Poczytaj mi, mamo. Księga pierwsza, Nasza Księgarnia 2010 otrzymuje Eliza Bączek lat 5 – „Za plastyczny wyraz życia i wolności, za wiatr we włosach...”
+            (pocztówka ze spektakluMałe Historie granegowVII Ogródku Jordanowskim w Warszawie 27.06.2014)
+            <h3>II nagrodę:</h3>
+            książkę Tove Jansson, Muminki. Księga pierwsza, Nasza Księgarnia 2012 otrzymuje Aleksandra Mazurowska lat 7 – „Za pracowitość i pomysłowość” (pocztówka ze
+            spektaklu Małe Historie granego 21.10.2014 r. w SP nr 258 w Warszawie)
+            <h3>III nagrodę:</h3>
+            siążkę Agnieszka Ociecka dzieciom, Nasza Księgarnia 2010 otrzymuje Julia Tuśnio lat7 – „Za urokliwy obraz naszego konia” (pocztówka ze spektaklu Małe Historie
+            granego 21.10.2014 r. w SP nr 258 w Warszawie
+            <h3>Jury przyznało również dwa wyróżnienia:</h3>
+            1. Danusia Kotynia lat 7 – „Za dobrą energię” (pocztówka ze spektaklu Małe Historie granego w Szkole Podstawowej nr 267. Nagrodą jest książka: Ewa Kozyry-Pawlak, Ja Bobik, Nasza Księgarnia2014<br>
+            2. Łucja Sala lat 7 –„Za pracowitość i cudowne kolory”(pocztówka ze spektaklu Małe Historie granego wSP 267 w Warszawie) Nagrodą jest książka: Izabela Mikrut,
+            Co się zdarzyło w piórniku, Nasza Księgarnia 2014
+            <h3>Zapraszamy do galerii nagrodzonych prac.</h3>
+            Jury: Natalia Leszczyńska, Julia Umeda-Zasacka, Krystyna Bocheńska
+            <embed class="slideShow" type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&captions=1&noautoplay=1&hl=pl&feat=flashalbum&RGB=0xfffcf2&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F104417725127096141978%2Falbumid%2F6081659958156338673%3Falt%3Drss%26kind%3Dphoto%26hl%3Dpl" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
         </div>
     </div>
     
     <div class="line"></div>
     <div class="panel">
         <div class="centralLayer column">
-            <div class="left">
-                <h1>Mafundacja</h1>
-                Fundacja Ma Fundacja<br>
-                Śmiała 50m.3 01-526 Warszawa<br>
-                Regon: 146500880, NIP 5252546899<br>
-            </div>
-            <div id="child" class="rightAlign">
-                <img src="pict/dziecko.png">
-            </div>
+            <img id="child" src="pict/dziecko.png">
+            <h1 id="mafundacja">Mafundacja</h1>
+            Fundacja MaFundacja jest nową rozwijającą się organizacją stworzoną przez osoby, które
+            zajmują się kulturą,sztuką i edukacją. Wspólnie chcemy wspierać i inicjować działania, które w artystyczny sposób mówią o tym, jak różni jesteśmy,
+            a jednocześniepozwalają zauważać, jak wiele mamy ze sobą wspólnego.
+            <div class="clear"></div>
+            <h2>Ma Fundacja – współpraca i wsparcie</h2>
+            Jeśli chcieliby Państwo z nami współpracować lub podzielićsię z nami opinią na temat działań Ma Fundacji, czekamy na maile
+            <a href="mailto:icobylodalej@gmail.com">icobylodalej@gmail.com</a><br><br>
+            Osoby chcące wesprzeć nas finansowo zachęcamy do dokonywania wpłat na konto<br>
+            Bank BGŻ 25203000451110000002579370<br>
+            Ma Fundacja; ul. Śmiała 50/3, 01-526 Warszawa<br>
+            Mądrze wydamy każda złotówkę. Liczy się nawet najmniejsza kwota – dla nas 5 zł to klej, 10 zł ryza papieru, a 15 zł to dobre kredki ;-)<br><br>
+            Fundacja Ma Fundacja<br>
+            Śmiała 50m.3 01-526 Warszawa<br>
+            Regon: 146500880, NIP 5252546899<br>
         </div>
     </div>
 
-    <div class="line"></div>
-    <div id="footer" class="centralLayer">
-        <img id="logos" src="pict/logotypy.svg">
-        Strona powstaje w ramach projektu „I co było dalej...?” realizowanego przez MA Fundację.
-        Dofinansowano ze środków Ministerstwa Kultury i Dziedzictwa Narodowego.
-        <div class="clear"></div>
-    </div>
+
+    <footer>
+        <div class="line"></div>
+        <div class="centralLayer column">
+            <img id="logos" src="pict/logotypy.svg">
+            Strona powstaje w ramach projektu „I co było dalej...?” realizowanego przez MA Fundację.
+            Dofinansowano ze środków Ministerstwa Kultury i Dziedzictwa Narodowego.
+            <div class="clear"></div>
+        </div>
+    </footer>
     
 </body>
 </html>
