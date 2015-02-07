@@ -12,7 +12,7 @@ function Slider(id, width, height, pictStruct, dark, autoRotate, navigation, pag
         if (navigation === undefined)
             navigation = true;
         if (pagination === undefined)
-            pagination = true;;
+            pagination = true;
 
 	this.pictures_ = 0;
 	for (var i in this.pictStruct_) {

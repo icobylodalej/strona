@@ -1,8 +1,11 @@
 
 
 
-var SLIDER_HEIGHT = 530;
-var SLIDER_WIDTH = 1920;
+var SLIDER_FIRST_HEIGHT = 530;
+var SLIDER_FIRST_WIDTH = 1920;
+
+var SLIDER_HEIGHT = 506;
+var SLIDER_WIDTH = 900;
 
 var stickyNavTop = 0;
 var NAV_HEIGHT = 40;
@@ -24,6 +27,7 @@ var tiles = {};
 
 /* slider instances */
 var firstSlider;
+var secondSlider;
 
 var firstPictPerPage = {
         0: 1,
@@ -32,6 +36,11 @@ var firstPictPerPage = {
         3: 1,
         4: 1
     };
+
+var secondPictPerPage = {
+    0: 1,
+    1: 1
+};
 
 function stickyNav() {
     var scrollTop = $(window).scrollTop();
@@ -46,7 +55,8 @@ $(document).ready(function () {
     // add slow scroll on link click
     $('nav').delegate('a', 'click', scrollToClick);
 
-    firstSlider = new Slider('first', SLIDER_WIDTH, SLIDER_HEIGHT, firstPictPerPage, false, true, true, false);
+    firstSlider = new Slider('first', SLIDER_FIRST_WIDTH, SLIDER_FIRST_HEIGHT, firstPictPerPage, false, true, true, false);
+    secondSlider = new Slider('second', SLIDER_WIDTH, SLIDER_HEIGHT, secondPictPerPage, false, false, true, false);
 
     stickyNavTop = $('nav').offset().top;
     stickyNav();

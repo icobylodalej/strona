@@ -150,7 +150,7 @@ footer {
 
 #smallStories {
     background-image: url(pict/kropki.svg);
-    background-position: center 800px;
+    background-position: center 0px;
 }
 
 .slideShow {
@@ -162,3 +162,38 @@ footer {
     padding-right: 20px;
     padding-top: 20px;
 }
+
+.movieContainer {
+    width: 100%;
+    max-width: 1100px;
+    position: relative;
+}
+
+#secondSlider {
+    position: relative;
+}
+
+.sliderArrows {
+    top: 180px;
+    position: absolute;
+    z-index: 105;
+}
+
+.sliderLeft {
+    margin-left: 0px;
+    left: 0px;
+}
+
+.sliderRight {
+    margin-right: 0px;
+    right: 0px;
+}
+
+.sliderLeft:hover {
+    margin-left: -2px;
+}
+
+.sliderRight:hover {
+    margin-right:-2px;
+}
+

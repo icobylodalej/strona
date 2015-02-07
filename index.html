@@ -31,7 +31,7 @@
 
 <body>
 
-    <div class="sliderContainer">
+    <div id="first" class="sliderContainer">
         <div class="sliderInnerContainer centralLayer">
             <div id="firstSlider">
                 <img src="pict/1.jpg" >
@@ -50,7 +50,7 @@
         <a id="aMafundacja" href="#mafundacja" >Mafundacja</a>
     </nav>
 
-    <div id="smallStories" class="panel">
+    <div class="panel">
         <div class="centralLayer column">
             <h1 id="project">I co było dalej</h1>
             <h3>
@@ -65,10 +65,34 @@
             godzy - artyści. Punktem wyjścia naszych działań były warsztaty z dziećmi oraz konsultacje z pedagogami i
             rodzicami. Warsztaty oraz próby do spektaklu “Małe historie” trwały od kwietnia do czerwca 2014 roku. 
 
-            <h2>
+        </div>
+    </div>
+
+    <div id="second" class="panel">
+        <div class="centralLayer movieContainer">
+            <div id="secondSlider" class="column centralLayer">
                 <iframe width="900" height="506" src="http://www.youtube.com/embed/aIP523Wc2ck?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-            </h2>
+                <iframe width="900" height="506" src="https://www.youtube.com/embed/NCopC7BzKoI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+                <a href="#" class="slidesjs-previous slidesjs-navigation"></a>
+                <a href="#" class="slidesjs-next slidesjs-navigation"></a>
+            </div>
+
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="54.566px" height="108px" viewBox="0 0 54.566 108" enable-background="new 0 0 54.566 108" xml:space="preserve"
+                class="sliderArrows sliderLeft" onclick="prevPict(this);" >
+                <polygon fill="#919BA1" points="54.188,101.762 6.713,54.005 54.188,6.909 54.188,0.024 0,54.193 54.188,108 "/>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="54.566px" height="108px" viewBox="0 0 54.566 108" enable-background="new 0 0 54.566 108" xml:space="preserve"
+                class="sliderArrows sliderRight" onclick="nextPict(this);">
+                <polygon fill="#919BA1" points="0,108 54.188,54.193 0,0.024 0,6.909 47.475,54.005 0,101.762 "/>
+            </svg>
+        </div>
+    </div>
             
+    <div id="smallStories" class="panel">
+        <div class="centralLayer column">
             <h3>Projekt &quot;I co było dalej...?" dofinansowano ze środków Ministerstwa Kultury i Dziedzictwa Narodowego</h3>
               <br> <br>
 
